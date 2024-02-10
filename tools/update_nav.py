@@ -2,8 +2,8 @@
 Allows repetitive updates to the navbar section of the website
 
 Run by executing the following:
-    cd tools
-    python3 update_nav.py
+cd tools
+python3 update_nav.py
 """
 from update_func import update_section
 

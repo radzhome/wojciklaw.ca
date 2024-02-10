@@ -2,8 +2,8 @@
 Allows repetitive updates to the footer of the website
 
 Run by executing the following:
-    cd tools
-    python3 update_footer.py
+cd tools
+python3 update_footer.py
 """
 from update_func import update_section
 
@@ -54,7 +54,7 @@ footer = """
                         <div class="footer-menu">
                             <a href="/">Home</a>
                             <a href="about.html">About</a>
-                            <a href="service.html">Services</a>
+                            <a href="services.html">Services</a>
                         </div>
                     </div>
                 </div>

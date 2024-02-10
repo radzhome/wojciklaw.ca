@@ -1,5 +1,10 @@
 """
 Generic update function for all html files
+
+Usage:
+from update_func import update_section
+update_section(section='Navbar', new_content=navbar)
+
 """
 import logging
 import os
