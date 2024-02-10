@@ -10,7 +10,7 @@ from update_func import update_section
 # Define the new navbar content
 navbar = """
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img class="navbar-logo" src="/img/wojcik.png">Wojcik Law
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -18,7 +18,7 @@ navbar = """
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="/" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
 
                 <div class="nav-item dropdown">
