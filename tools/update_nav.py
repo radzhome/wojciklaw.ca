@@ -1,12 +1,11 @@
 """
-Run by executing the following:
-    python3 update_section.py
-"""
-import os
-import re
+Allows repetitive updates to the navbar section of the website
 
-# Define the directory where your HTML files are located
-directory = '../'
+Run by executing the following:
+    cd tools
+    python3 update_nav.py
+"""
+from update_func import update_section
 
 # Define the new navbar content
 navbar = """
@@ -25,7 +24,7 @@ navbar = """
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">services</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="services.html" class="dropdown-item">Services</a>
+                        <a href="services.html" class="dropdown-item">Our Services</a>
                         <a href="services-commercial.html" class="dropdown-item">Commercial</a>
                         <a href="services-family-law.html" class="dropdown-item">Family Law</a>
                         <a href="services-real-estate.html" class="dropdown-item">Real Estate</a>
@@ -42,7 +41,7 @@ navbar = """
                         <a href="buyers-condominiums.html" class="dropdown-item">Condominiums</a>
                         <a href="buyers-land-transfer-tax.html" class="dropdown-item">Land Transfer Tax</a>
                         <a href="buyers-mortgage-calculator.html" class="dropdown-item">Mortgage Calculator</a>
-                        <a href="buyers-roadmap.html" class="dropdown-item">Road map</a>
+                        <a href="buyers-roadmap.html" class="dropdown-item">Buyer Roadmap</a>
 
                     </div>
                 </div>
@@ -50,9 +49,9 @@ navbar = """
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">sellers</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="sellers-checklist.html" class="dropdown-item">Checklist</a>
+                        <a href="sellers-checklist.html" class="dropdown-item">Seller Checklist</a>
                         <a href="sellers-closing-costs.html" class="dropdown-item">Closing costs</a>
-                        <a href="sellers-roadmap.html" class="dropdown-item">Roadmap</a>
+                        <a href="sellers-roadmap.html" class="dropdown-item">Seller Roadmap</a>
                     </div>
                 </div>
                 <a href="faq.html" class="nav-item nav-link">FAQ</a>
@@ -63,16 +62,4 @@ navbar = """
         </div>
     </nav>
 """
-
-# Iterate over all HTML files in the directory
-for filename in os.listdir(directory):
-    if filename.endswith('.html'):
-        with open(os.path.join(directory, filename), 'r') as file:
-            file_content = file.read()
-
-        # Replace the navbar content in each file with the new navbar content
-        file_content = re.sub('<!-- Navbar Start -->.*<!-- Navbar End -->', navbar, file_content, flags=re.DOTALL)
-
-        # Write the updated content back to the file
-        with open(os.path.join(directory, filename), 'w') as file:
-            file.write(file_content)
+update_section(section='Navbar', new_content=navbar)
