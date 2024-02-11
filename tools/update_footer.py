@@ -24,7 +24,7 @@ footer = """
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a class="text-white" href="contact.html">201 Consumers Rd Unit 207</a></p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3 "></i><a class="text-white" href="tel:(416) 292-8277">(416) 292-8277</a></p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3 "></i>Fax (416) 292-8778</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a class="text-white" href="mailto:wojcikpc@gmail.com">wojcikpc@gmail.com</a></p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a class="text-white" href="mailto:greg@wojciklaw.ca">greg@wojciklaw.ca</a></p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/greg-wojcik-0aa28a127/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </div>
