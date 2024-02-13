@@ -14,4 +14,6 @@
 
 * TOOD transfer content
 * create new server (ansible)
-* 
+* TODO: add og-image to show in preivew link
+* GA -> get tagging instructions
+* bitbucket acess use ssh-add 
