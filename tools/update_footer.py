@@ -8,6 +8,19 @@ python3 update_footer.py
 from update_func import update_section
 
 # Define the new content dropped pt-5 mt-5 from container-fluid
+
+
+# share this was (old):
+#                 <div class="col-lg-3 col-md-6">
+#                     <h4 class="text-white mb-3">Share</h4>
+#                     <div class="row g-2 pt-2">
+#                         <ul class="social-network">
+#                         <span class='st_facebook' displayText=''></span>
+#                         <span class='st_twitter' displayText=''></span>
+#                         <span class='st_linkedin' displayText=''></span>
+# 					</ul>
+#                     </div>
+#                 </div>
 footer = """
     <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -34,10 +47,13 @@ footer = """
                     <h4 class="text-white mb-3">Share</h4>
                     <div class="row g-2 pt-2">
                         <ul class="social-network">
-                        <span class='st_facebook' displayText=''></span>
-                        <span class='st_twitter' displayText=''></span>
-                        <span class='st_linkedin' displayText=''></span>
-					</ul>
+                            <span class='st_sharethis_large' displayText='ShareThis'></span>
+                            <span class='st_facebook_large' displayText='Facebook'></span>
+                            <span class='st_twitter_large' displayText='Tweet'></span>
+                            <span class='st_linkedin_large' displayText='LinkedIn'></span>
+                            <span class='st_pinterest_large' displayText='Pinterest'></span>
+                            <span class='st_email_large' displayText='Email'></span>
+					    </ul>
                     </div>
                 </div>
 

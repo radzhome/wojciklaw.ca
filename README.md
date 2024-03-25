@@ -9,7 +9,7 @@
 * logo color #0C054A
 * "Open Sans",Arial,sans-serif  from "Nunito",sans-serif
 * <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-* <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700">
+* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700">
 * dark blue color from #0C054A to #0C054A
 
 * TOOD transfer content
